@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal website and research portfolio of Your Name.">
+  <meta name="theme-color" content="#10251e">
+  <title>Your Name | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Home"><span class="brand-mark">✳</span><span>YOUR NAME</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#research">Research</a><a href="#projects">Projects</a>
+      <a href="#journal">Journal</a><a href="#contact" class="nav-contact">Get in touch <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Misty mountain forest at sunrise"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> RESEARCHER · CREATOR · EXPLORER</p>
+        <h1>Curiosity is a<br><em>way of life.</em></h1>
+        <p class="hero-copy">Exploring ideas at the intersection of robotics, smart materials, and the natural world.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#about">Discover my world <span>↓</span></a>
+          <a class="text-link" href="#research">Explore my research <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>PERSONAL SPACE · EST. 2026</span><span class="scroll-note">SCROLL TO EXPLORE ↓</span></div>
+      <div class="hero-side-note">THINK DEEPLY. BUILD THOUGHTFULLY. EXPLORE OFTEN.</div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="section-kicker">01 / A LITTLE ABOUT ME</div>
+      <div class="intro-grid">
+        <div><h2>Engineering ideas.<br><em>Following curiosity.</em></h2></div>
+        <div class="intro-text">
+          <p class="lead">Hello, and welcome. I'm <strong>Your Name</strong> — a researcher, engineer, and lifelong learner interested in understanding how things work and imagining how they could work better.</p>
+          <p>This space brings together my academic journey, research, projects, photographs, travels, and the small things that inspire me along the way.</p>
+          <a class="underlined-link" href="#contact">Let's connect <span>↗</span></a>
+        </div>
+      </div>
+      <div class="facts-row">
+        <div><span class="fact-number">01</span><span class="fact-label">Research & discovery</span></div>
+        <div><span class="fact-number">02</span><span class="fact-label">Design & engineering</span></div>
+        <div><span class="fact-number">03</span><span class="fact-label">Nature & exploration</span></div>
+      </div>
+    </section>
+
+    <section class="research section-pad" id="research">
+      <div class="section-kicker">02 / ACADEMIC & RESEARCH</div>
+      <div class="section-heading">
+        <h2>Where ideas meet<br><em>engineering.</em></h2>
+        <p>My research interests focus on intelligent mechanisms and human-centred robotic systems.</p>
+      </div>
+      <div class="research-layout">
+        <div class="research-photo" role="img" aria-label="Close-up of a precision engineering mechanism"></div>
+        <div class="research-list">
+          <article><span>01</span><div><h3>Robotics & mechanism design</h3><p>Cable-driven parallel robots, mechanism development, kinematics, workspace analysis, and motion planning.</p></div><b>↗</b></article>
+          <article><span>02</span><div><h3>Smart material actuation</h3><p>Shape memory alloy actuators, bio-inspired architectures, and compact actuation mechanisms.</p></div><b>↗</b></article>
+          <article><span>03</span><div><h3>Rehabilitation robotics</h3><p>Assistive technologies and safe, adaptable robotic systems for human movement and physical rehabilitation.</p></div><b>↗</b></article>
+          <article><span>04</span><div><h3>Optical sensing & machine learning</h3><p>Photoelastic sensing, force distribution estimation, and image-based learning methods.</p></div><b>↗</b></article>
+        </div>
+      </div>
+      <div class="academic-note">
+        <div class="note-symbol">✳</div>
+        <div><span class="small-label">ACADEMIC PROFILE — EDIT THIS SECTION</span><h3>Doctoral Researcher</h3><p>Department of Mechanical Engineering · Indian Institute of Technology Kanpur</p><p>Smart Materials, Structures and Systems (SMSS) Laboratory</p></div>
+      </div>
+    </section>
+
+    <section class="projects section-pad" id="projects">
+      <div class="section-kicker">03 / SELECTED WORK</div>
+      <div class="section-heading">
+        <h2>Ideas in<br><em>motion.</em></h2>
+        <p>A selection of themes and projects from my research journey. Add your publications, prototypes, presentations, and project links here.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-wide">
+          <div class="project-image project-one"></div>
+          <div class="project-meta"><span>ROBOTICS · REHABILITATION</span><span>01</span></div>
+          <h3>Cable-driven robotic systems</h3><p>Design and control of cable-driven systems for large-workspace and rehabilitation applications.</p>
+        </article>
+        <article class="project-card">
+          <div class="project-image project-two"></div>
+          <div class="project-meta"><span>SMART MATERIALS</span><span>02</span></div>
+          <h3>Bio-inspired smart actuators</h3><p>Exploring compact actuation through shape memory alloys and biomimetic architectures.</p>
+        </article>
+        <article class="project-card">
+          <div class="project-image project-three"></div>
+          <div class="project-meta"><span>SENSING · MACHINE LEARNING</span><span>03</span></div>
+          <h3>Optical force sensing</h3><p>Learning-based interpretation of photoelastic patterns for force distribution estimation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-band" id="journal">
+      <div class="quote-image"></div><div class="quote-overlay"></div>
+      <div class="quote-content"><span class="small-label">A THOUGHT TO CARRY</span><blockquote id="quoteText">“The important thing is to never stop questioning.”</blockquote><span class="quote-author" id="quoteAuthor">— Albert Einstein</span><button class="quote-next" id="newQuote">Another thought ↗</button></div>
+    </section>
+
+    <section class="journal section-pad">
+      <div class="section-kicker">04 / BEYOND THE WORK</div>
+      <div class="section-heading"><h2>Collecting moments,<br><em>not just milestones.</em></h2><p>Outside the lab: landscapes, journeys, photographs, books, and the beauty of everyday details.</p></div>
+      <div class="gallery">
+        <div class="gallery-item gallery-a"><span>01 / LANDSCAPES</span></div>
+        <div class="gallery-item gallery-b"><span>02 / BOTANICAL</span></div>
+        <div class="gallery-item gallery-c"><span>03 / THE OPEN ROAD</span></div>
+      </div>
+      <p class="gallery-hint">Replace these sample images with your own photographs whenever you're ready.</p>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="section-kicker">05 / SAY HELLO</div>
+      <div class="contact-grid"><div><h2>Good ideas begin<br><em>with a conversation.</em></h2><p>For research discussions, collaborations, or simply to connect, feel free to reach out.</p></div>
+      <div class="contact-links"><a href="mailto:your.email@example.com">your.email@example.com <span>↗</span></a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a href="https://github.com/myusername" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">✳</span><span>YOUR NAME</span></a><span>Made with curiosity and a little code.</span><a href="#home">BACK TO TOP ↑</a><span>© <span id="year"></span></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
